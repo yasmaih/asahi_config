@@ -173,3 +173,35 @@ map ctrl+alt+enter launch --cwd=current
 
 Pour désactiver un raccourci par défaut : `map ctrl+shift+q no_op`.
 Pour tout virer et repartir de zéro : `clear_all_shortcuts yes` en haut du fichier.
+
+## Fish : les raccourcis à connaître
+
+| Raccourci | Ça fait quoi |
+|-|-|
+| `→` ou `ctrl+f` | accepter la suggestion grise en entier |
+| `alt+→` | accepter seulement le mot suivant de la suggestion |
+| `alt+s` | ajouter `sudo` devant la commande (même celle que tu viens de lancer) |
+| `alt+e` | éditer la commande en cours dans nvim (pour les commandes longues) |
+| `alt+.` | recoller le dernier argument de la commande d'avant |
+| `alt+l` | lister le dossier sous le curseur sans effacer ta commande |
+| `alt+w` | une ligne d'explication sur la commande sous le curseur |
+| `alt+h` | ouvrir le man de la commande sous le curseur |
+| `alt+p` | ajouter `| less` à la fin de la commande |
+| `alt+b` / `alt+f` (ligne vide) | dossier précédent / suivant |
+| `ctrl+r` | historique avec fzf |
+| `ctrl+t` | fichier avec fzf, chemin collé dans la commande |
+| `alt+c` | dossier avec fzf, et y aller |
+
+## Pour frimer
+
+| Commande | Ça fait quoi |
+|-|-|
+| `big coucou` | texte géant (`big -s 5 coucou` pour encore plus gros), kitty seulement |
+| `kitten icat image.png` | afficher une image (ou un GIF animé) dans le terminal |
+| `kitten diff a b` | diff côte à côte en couleurs, marche aussi sur des images |
+| `kitten themes` | changer de thème avec aperçu en direct |
+| `kitten choose-fonts` | pareil pour la police |
+| `make re; kitten notify "fini"` | notification GNOME à la fin d'une commande |
+
+Et tout seul : kitty t'envoie une notification quand une commande de plus de 10 secondes
+finit pendant que t'es sur une autre fenêtre.
