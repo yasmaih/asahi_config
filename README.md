@@ -48,7 +48,6 @@ ta config, c'est direct dans le repo, t'as plus qu'à commit.
 asahi_config/
 ├── install.sh                paquets + police + liens symboliques
 ├── docs/raccourcis-kitty.md  fiche de tous les raccourcis kitty
-├── claude/peer42.md          style "Peer 42" de Claude Code
 ├── kitty/
 │   ├── kitty.conf            config du terminal
 │   └── current-theme.conf    thème Blazer (généré par kitten themes)
@@ -65,7 +64,7 @@ asahi_config/
     └── logos/                les dessins, un tiré au hasard
 ```
 
-Liens symboliques : `~/.config/{kitty,fish,fastfetch}`, `~/.claude/output-styles/peer42.md`,
+Liens symboliques : `~/.config/{kitty,fish,fastfetch}`,
 `~/Documents/kitty-how-it-works/raccourcis.md` et `~/Documents/README-config.md` pointent
 tous vers ce repo.
 
