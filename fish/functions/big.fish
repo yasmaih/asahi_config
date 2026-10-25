@@ -15,5 +15,8 @@ function big --description "Écrit du texte en géant (protocole de taille de te
         return 1
     end
 
-    printf '\e]66;s=%d;%s\a\n' $size "$argv"
+    # Le texte fait $size lignes de haut : on descend d'autant,
+    # sinon le prompt s'écrit par-dessus et l'efface
+    printf '\e]66;s=%d;%s\a' $size "$argv"
+    string repeat -n $size \n
 end
