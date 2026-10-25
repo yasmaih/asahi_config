@@ -25,10 +25,6 @@ link "$REPO/kitty" "$HOME/.config/kitty"
 link "$REPO/fish" "$HOME/.config/fish"
 link "$REPO/fastfetch" "$HOME/.config/fastfetch"
 
-# Thème fish : fish_variables n'est pas dans le repo, on le règle ici
-# (seulement si aucun thème n'est déjà choisi sur cette machine)
-fish -c 'set -q my_theme; or set -U my_theme catppuccin-mocha'
-
 # Police : Fantasque Sans Mono en version Nerd Font
 FONT_DIR="$HOME/.local/share/fonts/FantasqueSansMNerdFont"
 if [ ! -d "$FONT_DIR" ]; then
@@ -39,6 +35,14 @@ if [ ! -d "$FONT_DIR" ]; then
   tar -xJf "$tmp/f.tar.xz" -C "$FONT_DIR" --wildcards '*.ttf'
   rm -rf "$tmp"
   fc-cache -f
+fi
+
+# lazygit : pas dans les dépôts Fedora, binaire arm64 de GitHub dans ~/.local/bin (sans sudo, marche aussi à l'école)
+if ! command -v lazygit >/dev/null; then
+  version="$(curl -fsSL https://api.github.com/repos/jesseduffield/lazygit/releases/latest | grep -Po '"tag_name": *"v\K[^"]*')"
+  mkdir -p "$HOME/.local/bin"
+  curl -fsSL "https://github.com/jesseduffield/lazygit/releases/download/v$version/lazygit_${version}_linux_arm64.tar.gz" \
+    | tar -xz -C "$HOME/.local/bin" lazygit
 fi
 
 echo
