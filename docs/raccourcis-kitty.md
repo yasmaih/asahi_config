@@ -28,6 +28,7 @@ Les raccourcis `ctrl+shift` plus bas marchent toujours en parallèle.
 | `ctrl+a > h` `j` `k` `l` | aller au panneau à gauche / en bas / en haut / à droite |
 | `ctrl+a > z` | zoomer sur le panneau actuel, refaire pour revenir |
 | `ctrl+a > r` | redimensionner le panneau |
+| `ctrl+a > w` | numéros sur les panneaux, tu tapes celui où aller |
 | `ctrl+a > x` | fermer le panneau |
 | `ctrl+a > ?` | afficher cette fiche (`q` pour fermer, `/` pour chercher) |
 | `ctrl+a > e` | ouvrir la config |
