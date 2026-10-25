@@ -1,0 +1,5 @@
+# État local de fish, propre à chaque machine
+fish/fish_variables
+
+# Sauvegardes laissées par kitten themes
+*.bak

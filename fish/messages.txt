@@ -1,0 +1,38 @@
+T'as ressuscité un MacBook de 2020 et viré macOS en une heure. Iconique.
+LazyVim à la vie à la mort. Ça, c'est une femme de conviction.
+Y'a le chat de Sailor Moon dans ton terminal. La barre est haute, queen.
+Ta config WezTerm était nulle, t'as dit. Celle-là, elle slay.
+Police mignonne, thème pastel, et du C derrière. Bosslady energy.
+Ton copain t'a appris fzf. Maintenant c'est toi qui vas lui montrer addlogo.
+Asahi sur un M1, Fantasque, Blazer. Personne au cluster a un setup comme le tien.
+Le ThinkPad pleure quelque part. Il s'en remettra.
+T'as monté tout ce terminal en une nuit. Un projet 42, c'est rien à côté.
+Tu lis la doc de kitty pour le plaisir. Ça, c'est être une vraie.
+Segfault ? Respire. T'as débuggé une config fish à 4h du mat, t'as vu pire.
+Commit, push, slay. Dans cet ordre.
+Elle a mangé ce projet et elle a pas laissé de miettes. Bon, vérifie les leaks quand même.
+Norminette 0 erreur : iconique. Norminette 47 erreurs : iconique aussi, mais va corriger.
+Mother is mothering. Le code peut suivre.
+Relis l'erreur en entier, queen. La réponse est souvent écrite dedans.
+La Yasmine de demain te remerciera d'avoir commit maintenant.
+Bloquée depuis une heure ? Va boire un verre d'eau. Ton cerveau débugge pendant que tu bouges.
+Explique ton bug à voix haute à Luna. Le chat a résolu plus de bugs que tu crois.
+Personne connaît tout par cœur. Les bonnes devs savent juste chercher vite.
+Un bug que tu comprends, c'est déjà un bug à moitié réglé.
+Valgrind "0 bytes in use", c'est le seul compliment dont t'as besoin aujourd'hui. Après celui-là.
+Fun fact : Ken Thompson a écrit la première version d'Unix en environ 3 semaines, en 1969.
+Fun fact : en 1947, l'équipe de Grace Hopper a scotché un papillon de nuit dans le carnet du Harvard Mark II, avec la mention "premier vrai bug trouvé".
+Fun fact : Dennis Ritchie a créé le C aux Bell Labs au début des années 70, pour réécrire Unix.
+Fun fact : Linus Torvalds a écrit la première version de Git en une dizaine de jours, en 2005.
+Fun fact : Python tient son nom des Monty Python, pas du serpent.
+Fun fact : en 1843, Ada Lovelace a écrit un algorithme pour calculer les nombres de Bernoulli. On le considère comme le premier programme.
+Fun fact : Tony Hoare appelle la référence nulle, qu'il a inventée en 1965, son "erreur à un milliard de dollars".
+Fun fact : le 19 janvier 2038, les horloges Unix sur 32 bits vont déborder. C'est le bug de l'an 2038.
+Fun fact : Linux a failli s'appeler Freax.
+Fun fact : Valgrind tient son nom de la mythologie nordique, c'est la porte du Valhalla.
+Fun fact : printf renvoie le nombre de caractères qu'il a écrits. Ça te rappelle un projet ?
+Fun fact : malloc te donne de la mémoire avec ce qui traînait dedans. calloc la remet à zéro.
+Fun fact : vi date de 1976, Vim de 1991, Neovim de 2014.
+Fun fact : 42, c'est la réponse à la grande question sur la vie, l'univers et le reste, dans le Guide du voyageur galactique.
+Fun fact : un segfault, c'est le signal 11. D'où le 139 dans ton shell : 128 + 11.
+Fun fact : Asahi Linux tient son nom d'une variété de pomme japonaise. Logique pour un Mac.
