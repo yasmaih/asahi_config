@@ -30,6 +30,7 @@ Les raccourcis `ctrl+shift` plus bas marchent toujours en parallèle.
 | `ctrl+a > r` | redimensionner le panneau |
 | `ctrl+a > w` | numéros sur les panneaux, tu tapes celui où aller |
 | `ctrl+a > x` | fermer le panneau |
+| `ctrl+a > S > q` | sauvegarder la session (onglets, splits, dossiers), rouverte au prochain lancement |
 | `ctrl+a > ?` | afficher cette fiche (`q` pour fermer, `/` pour chercher) |
 | `ctrl+a > e` | ouvrir la config |
 | `ctrl+a > shift+r` | recharger la config |
