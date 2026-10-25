@@ -89,6 +89,7 @@ tous vers ce repo.
 | `ctrl+a > z` | zoomer sur un panneau, et revenir |
 | `ctrl+a > r` | redimensionner |
 | `ctrl+a > x` | fermer le panneau |
+| `ctrl+a > ?` | fiche des raccourcis par-dessus le terminal |
 | `ctrl+a > e` / `shift+r` | ouvrir / recharger la config |
 | `ctrl+a > ctrl+a` | envoyer un vrai `ctrl+a` |
 

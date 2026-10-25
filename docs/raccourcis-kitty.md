@@ -29,6 +29,7 @@ Les raccourcis `ctrl+shift` plus bas marchent toujours en parallèle.
 | `ctrl+a > z` | zoomer sur le panneau actuel, refaire pour revenir |
 | `ctrl+a > r` | redimensionner le panneau |
 | `ctrl+a > x` | fermer le panneau |
+| `ctrl+a > ?` | afficher cette fiche (`q` pour fermer, `/` pour chercher) |
 | `ctrl+a > e` | ouvrir la config |
 | `ctrl+a > shift+r` | recharger la config |
 | `ctrl+a > ctrl+a` | envoyer un vrai `ctrl+a` (début de ligne dans le shell) |
