@@ -36,12 +36,7 @@ if status is-interactive
 
     # Abréviations : on tape le nom + espace, la vraie commande se déplie sous les yeux
     # --set-cursor : le curseur se place là où il y a le %
-    abbr --add commit --set-cursor 'git commit -m "%"'
-    abbr --add gs git status
-    abbr --add ga git add .
-    abbr --add gp git push
-    abbr --add gl git log --oneline --graph
-    abbr --add gd git diff
+    # Pas d'abbr git : lazygit fait status, add, commit, push, log et diff
     abbr --add v nvim
     # Neovide pas encore installé : à ajuster s'il vient de Flathub (flatpak run dev.neovide.neovide)
     abbr --add oo neovide
