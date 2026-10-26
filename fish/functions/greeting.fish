@@ -39,5 +39,11 @@ function greeting --description "Coucou, message selon l'heure, et un message au
         set_color cyan
         echo "  ✧ "(random choice $messages)"  "(random choice $kaomojis)
     end
+
+    if test -f ~/.local/share/kitty/session.kitty
+        echo
+        set_color brblack
+        echo "  ↺ ctrl+a > S > o pour rouvrir ta dernière session"
+    end
     set_color normal
 end
